@@ -1,8 +1,17 @@
-
+/**
+ * 
+ * @author JAVIER
+ *
+ */
 public class Rectangulo_JVM extends FiguraGeometrica_JVM {
 	private double l1;
 	private double l2;
-	
+	/**
+	 * 
+	 * @param tipoFigura
+	 * @param lG
+	 * @param lP
+	 */
 	public Rectangulo_JVM(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
 		l1 = lG;
